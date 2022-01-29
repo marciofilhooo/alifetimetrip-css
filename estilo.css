@@ -1,0 +1,65 @@
+/* seletor{propriedade:valor; */
+/* google fonts pode ser usado, por downloand ou link(@importa= copiar o código entre as tags STYLE e colocar antes de tudo */
+/* usar W3C CSS Box Model (margin, border, padding e content) */
+/* exemmplo de Box Model:
+div {
+    width: 300px;
+    height: 300px;
+    background-color: #CCC;
+    padding: 20px;
+    margin: 30px;
+    border: 1pc solid red */
+
+    *{margin:0; padding:0;}
+
+    body{
+        background-color: rgb(255, 236, 173);
+    }
+    
+    header, img{
+        width: 100%;
+        height: 380px;
+    }
+    
+    nav{
+      width: 100%;
+      height: 50px;
+      background-color: rgb(0, 71, 0);
+    }
+    
+    a{}
+    
+    article{
+      width: 100%;
+      background-color: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    h1{ /* para aplicar a formtação para toda a tag, use "font": 3rem 'Fonte' */
+        font: 3rem 'Cantarell Extra Bold' ;
+        color: black;
+        text-align: center;
+        margin-bottom: 30px;
+        /* margin: ; para personalizar as margens do box */
+    }
+    
+    p{ /* google fonts pode ser usado, por downloand ou link(@import= copiar o código entre as tags STYLE e colocar antes de tudo */
+        font: 1.1rem 'Droid Sans' , sans-serif; /* fonte em pixels é uma fonte fixa em cada dispositivo, preferivel usar tag REM */
+        color: black;
+        text-align: justify;
+        text-indent: 20px;
+        line-height: 30px;
+    }/* Se você escrever o mesmo seletor mais abaixo, o seletor anterior será sobrescrito */
+    
+    section{
+    
+    }
+    /*seletor de id */ #pag-destinos{
+        color: darkgreen;
+    }
+    
+    /* seletor de classe */ .img-atividadesdiarias{
+        width: 50px;
+        height: 50px;
+    }
